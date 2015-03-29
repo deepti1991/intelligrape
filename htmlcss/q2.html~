@@ -1,0 +1,39 @@
+<html>
+<body>
+ <ul class="disc">
+  <li>Comedies</li>
+   <ul class="circle">
+    <li><a href>As You Like It</a></li>
+    <li>All's Well That Ends Well</li>
+    <li>A Midsummer Night's Dream</li>
+    <li>Twelfth Night</li> 
+   </ul>
+ </ul>
+<ul class="disc">
+  <li>Tragedies</li>
+ 
+ <ul class="circle">
+   <li><a href>Hamlet</a></li>
+   <li>Macbeth</li>
+   <li>Romeo and Juliet</li>
+ </ul>
+ </ul>
+<ul class="disc">
+  <li>Histories</li>
+ <ul type="circle">
+   <li>Henry IV(<a href>email</a>)</li>
+   	<ul class="sq">
+	 <li>Part I</li>
+	 <li>Part II</li>
+	</ul>
+   <li><a href>Henry V</a></li>
+   <li>Richard II</li>
+ </ul>
+ </ul>
+<style type="text/css">
+ul.disc{type:disc}
+li.circle{type:circle}
+ul.sq{type:square}
+</style>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<body>
+<img src="1.jpg" class=img1><div>Dill &Groslok Chips
+OlW, 40 g
+21,95 kr
+13,94,kr
+Jfr pris 75kg</div> 
+<img src="2.jpg" class=img1>
+<img src="3.jpg" class=img1>
+<img src="4.jpg" class=img1 >
+<style type="text/css">
+.img1{height:90px;width:90px;vertical-align:text-left}
+</style>
+</body>
+</html>
