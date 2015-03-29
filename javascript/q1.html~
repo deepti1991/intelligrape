@@ -1,0 +1,9 @@
+<html>
+<head>
+<script src="application.js">
+</script>
+</head>
+<body>
+clock.q1();
+</body>
+</html>

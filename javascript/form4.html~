@@ -1,0 +1,11 @@
+<html>
+<head>
+<script src="application.js">
+</script>
+</head>
+<body>
+<form>
+<div id="div" onmouseover="over(this)" onmouseout="out(this)"> Hello </div>
+</form>
+</body>
+</html>

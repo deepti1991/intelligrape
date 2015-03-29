@@ -1,0 +1,14 @@
+<html>
+<head>
+<script src="application.js">
+</script>
+</head>
+<body>
+<form>
+<p>Enter Name: <input type="text" id="name" required/>
+Enter Age:<input type="number" id="age" min="18"/>
+</p>
+<input type="button" value="Submit" onclick="return ex.validate()"/>
+</form>
+</body>
+</html>

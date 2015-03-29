@@ -1,0 +1,13 @@
+<html>
+<head>
+<script src="application.js">
+</script>
+</head>
+<body>
+<form>
+<input type="text" id="name">
+</input>
+<Button type="Button" onClick="ex.press()">Click</Button>
+</form>
+</body>
+</html>
