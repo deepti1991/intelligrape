@@ -1,0 +1,62 @@
+Answer1
+a- echo “hello world”
+b- ls -lart
+c- passwd
+d- date
+e- whoami
+f- pwd
+g- history
+h- netstat -t
+i- ps -A
+j- grep hello file1.txt
+k- ps | grep bash
+
+Answer2- mkdir exercise
+cd exercises
+
+Answer3- touch file1.txt file2.txt file3.txt
+
+Answer4- vi file1.txt
+cp file1.txt ~/exercises/files
+
+Answer5- cp -r exercises/*.* ~/exercises/files
+
+Answer6- ln -s ~/exercises/files/file1.txt testlink
+
+Answer7- ln ~/exercises/files/ "hardlink"
+ 
+Answer8-Softlinks are like shortcuts in windows. They do not contain any information about the destination file, the inode of softlink points to the inode of the file.
+Hardlinks directly point to the inode of the file on the disk.Any changes done to the hardlink are reflected in the original file as well.
+
+Answer9- chmod 700 files
+
+Answer10- useradd test
+
+Answer11- chown kunal ~/Desktop/intelligrape/solution/linux.txt
+
+Answer12- mkdir -p ~/john/work/scripts/bash
+ 
+Answer13- wont delete the directory as it is not empty.
+
+Answer14- John can only read the file.
+
+Answer15- alias cls='clear'
+
+Answer16- tar cvf exercises.tar exercises. *
+
+Answer17- tar cvf new.jar q1.class q2.class
+find q1.class new.jar
+
+Answer18- grep -l q2.class *.jar
+
+Answer19- find . -type f -size +1000c
+
+Answer20- set <variable name> is used to add a variable
+unset <variable name> is used to remove a variable 
+
+Answer21- sudo apt-get install openssh-server
+
+Answer22- ssh anusha@10.226.46.219
+
+Answer23- scp file1.txt anusha@10.0.10.22
+
